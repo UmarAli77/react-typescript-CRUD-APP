@@ -25,7 +25,7 @@ function LoginPage() {
           autoClose: 5000
         })
       }
-      const response = await axios.post("https://ecommerce-backend-fawn-eight.vercel.app/api/auth", {
+      const response = await axios.post("https://fakestoreapi.com/users", {
         email: form.email,
         password: form.password
       })
